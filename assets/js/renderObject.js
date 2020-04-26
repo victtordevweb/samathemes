@@ -16,11 +16,12 @@ const fn = {
                     }
                 }
             });
-            window.open(`https://api.whatsapp.com/send?phone=558192965137&text=${arrayTxt.join('%0a')}`);
+            window.open(`https://api.whatsapp.com/send?phone=558188185372&text=${arrayTxt.join('%0a')}`);
         });
 
         // adjust item select
         $('select.adjust-item').change(function(){
+            console.log('xxx');
             $(this).removeClass('no-value')
         });
     }
